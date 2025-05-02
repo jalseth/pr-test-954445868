@@ -1,0 +1,8 @@
+on:
+    - pull_request
+
+jobs:
+    asdf:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo hello!
